@@ -7,7 +7,7 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-    <SpeechProvider appId={process.env.REACT_APP_SPEECHLY_KEY} language="en-US">
+    <SpeechProvider appId= {process.env.REACT_APP_SPEECHLY_KEY} language="en-US">
         <Provider>
             <App />
         </Provider>
